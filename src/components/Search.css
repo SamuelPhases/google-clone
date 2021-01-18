@@ -1,0 +1,17 @@
+.search {
+  width: 80%;
+  /* background-color: #920; */
+  /* margin: 0em auto; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1em 2em;
+}
+
+.search__container {
+  /* background-color: rgb(65, 181, 185); */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

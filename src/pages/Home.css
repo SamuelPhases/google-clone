@@ -1,0 +1,120 @@
+.home {
+  /* background-color: #180; */
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.home__header {
+  flex: 0.1;
+  /* background-color: #289; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0em 2em;
+}
+
+.home__header > p {
+  margin-right: 1em;
+  font-size: 0.8rem;
+  color: #000000de;
+}
+
+form {
+  width: 100%;
+  /* background-color: #829; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.signin-btn {
+  margin-left: 1em;
+  border: none;
+  background-color: #4285f4;
+  padding: 0.5em 1em;
+  color: #fff;
+  border-radius: 3px;
+}
+
+.home__header > .MuiSvgIcon-root {
+  color: #000000de;
+}
+.home__body {
+  flex: 0.8;
+  /* background-color: rgb(172, 202, 154); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: -9em;
+}
+
+.home__body img {
+  margin-bottom: 0.5em;
+  width: 20%;
+}
+
+.buttons {
+  /* display: flex; */
+  margin-top: 1em;
+}
+
+.buttons > button {
+  transition: all 0.2s linear;
+  padding: 0.8em 1em;
+  border-radius: 5px;
+  text-transform: capitalize;
+  margin: 0em 0.5em;
+  color: #5f6368;
+  background-color: #f2f2f2;
+  border: 1px solid transparent;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+.buttons > button:hover {
+  border: 1px solid #e4e4e4;
+  background: linear-gradient(to top, #f5f5f5, #f1f1f1);
+}
+
+.home__footer {
+  flex: 0.1;
+  background-color: #f2f2f2;
+}
+
+.home__footer h3 {
+  color: #5f6368;
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+
+.home__footerRow1,
+.home__footerRow2 {
+  padding: 0.5em 2em;
+  border: 1px solid #e4e4e4;
+}
+
+.home__footerRow2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.home__footerLeft {
+  display: flex;
+  align-items: center;
+}
+
+.home__footerLeft > h3 {
+  padding-right: 1em;
+}
+
+.home__footerRight > h3 {
+  padding-left: 1em;
+}
+.home__footerRight {
+  display: flex;
+  align-items: center;
+}
